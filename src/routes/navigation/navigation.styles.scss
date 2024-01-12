@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap');
+
+
 .Logo{
     width: 50px;
     margin-left: 20px;
@@ -9,8 +12,10 @@
 }
 
 .eras-icon{
-    color:wheat;
-    border:azure;
+    font-family: 'Merriweather', serif;
+    color:goldenrod;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 

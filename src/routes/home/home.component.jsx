@@ -12,7 +12,7 @@ const Home = () => {
             </h1>
             <Link to={'main'}>
                 <button className='homepage_into_main'>
-                    <h2 className='text_in'>Dive into the Roman World</h2>
+                    <h2 className='text_in'>Ave Imperator!</h2>
                 </button>
             </Link>  
             <Outlet />

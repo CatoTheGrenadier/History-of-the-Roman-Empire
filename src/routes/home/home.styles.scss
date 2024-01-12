@@ -3,7 +3,7 @@
 
 
 .intro{
-    font-size: 200%;
+    font-size: 170%;
     color: white;
     -webkit-text-stroke-width: 0.1px;
     -webkit-text-stroke-color: rgb(134, 135, 82);
@@ -18,12 +18,15 @@
     margin: auto;
     width: 17%;
     padding: 1%;
-    opacity: 0.2;
+    opacity: 0.9;
     align-items: center;
     justify-content: center;
     margin-left: 41.5%;
     margin-bottom: 10%;
-
+    border: 3px solid black;
+    color:goldenrod;
+    background-color: red;
+    
     .text_in{
         font-family: 'Bigelow Rules', serif;
         font-family: 'Rowdies', sans-serif;
@@ -34,10 +37,11 @@
     }
 
     &:hover {
-        background-color: black;
-        color: white;
+        background-color: orange;
+        color: brown;
         border: none;
-        opacity: 0.9;
+        opacity: 0.5;
+        border: 5px solid black;
   }
 }
 
