@@ -13,8 +13,6 @@ const EmperorPage = ({eraDetails}) => {
 
     const { full_name, reign, imageUrl } = selectedEmperor
 
-    console.log(full_name, reign, imageUrl)
-
     return (
         <div className="emperor-container">
                 <img src={imageUrl}  className="emperor-pic"/>

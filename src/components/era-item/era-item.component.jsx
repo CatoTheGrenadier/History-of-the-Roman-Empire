@@ -3,7 +3,6 @@ import { Backgroundimage, Body, EraItemContainer  } from './era-item.styles';
 
 const EraItem = ({ era }) => {
     const { imageUrl, title, time, route } = era;
-    console.log(era)
     const navigate = useNavigate();
     const onNavigateHandler = () => navigate(route);
 

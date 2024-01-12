@@ -51,7 +51,6 @@ export const addCollectionAndDocuments = async (file) => {
     })
     
     await batch.commit()
-    console.log("success")
 }
 
 export const getErasAndDocuments = async () => {
