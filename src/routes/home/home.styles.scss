@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Bigelow+Rules&family=Rowdies&family=Salsa&family=Sofia&display=swap');
+
+
+
+.intro{
+    font-size: 30px;
+    color: white;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: rgb(134, 135, 82);
+    text-align: center;
+    padding: 7px;
+    margin: 100px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.homepage_into_main{
+    margin: auto;
+    border: 10px goldenrod;
+    width: 300px;
+    padding: 30px;
+    opacity: 0.2;
+    align-items: center;
+    justify-content: center;
+    margin-left: 800px;
+
+    .text_in{
+        font-family: 'Bigelow Rules', serif;
+        font-family: 'Rowdies', sans-serif;
+        font-family: 'Salsa', cursive;
+        font-family: 'Sofia', cursive;
+        font-family: 'Salsa', cursive;
+        font-family: 'Sofia', cursive;
+    }
+
+    &:hover {
+        background-color: black;
+        color: white;
+        border: none;
+        opacity: 0.9;
+  }
+}
+

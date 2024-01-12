@@ -1,0 +1,23 @@
+.era-container{
+    flex-direction: row;
+    border: 5px goldenrod;
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.era-title{
+    color: white;
+    border: 100px goldenrod;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+}
+
+.era-brief{
+    color: white;
+    border: 100px goldenrod;
+    margin: auto;
+    text-align: center;
+    padding: 100px;
+}
