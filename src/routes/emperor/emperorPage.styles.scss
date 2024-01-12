@@ -3,45 +3,46 @@
 
 .emperor-container{
     display: flex;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .emperor-name{
     font-family: 'Playfair Display', serif;
-    padding: 30px;
-    margin-top: 200px;
+    padding: 2%;
+    margin-top: 45%;
     text-align: center;
     color:whitesmoke;
     // -webkit-text-stroke-width: 0.00001px;
     // -webkit-text-stroke-color: rgb(110, 107, 107);
 
-    font-size: 65px;
+    font-size: 270%;
 
 }
 
 .emperor-reign{
     font-family: 'Playfair Display', serif;
-    padding: 30px;
+    padding: 12%;
     text-align: center;
     color:whitesmoke;
     // -webkit-text-stroke-width: 1px;
     // -webkit-text-stroke-color: black;
 
-    font-size: 35px;
+    font-size: 210%;
 
 }
 
 .emperor-pic{
-    width: 540px;
-    height: 810px;
+    width: 40%;
+    height: 40%;
     object-fit: cover;
     margin-bottom: 5px;
+    border: 4px solid black;
     display: flex;
-    margin-left: 100px;
-    margin-top: 35px;
+    margin-left: 2%;
+    margin-top: 1.5%;
 }
 
 .text-container{
-    margin-left: 65px;
+    margin-left: 13%;
 }

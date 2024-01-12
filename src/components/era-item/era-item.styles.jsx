@@ -10,7 +10,7 @@ export const Backgroundimage = styled.div`
 `
 
 export const Body = styled.div`
-  height: 90px;
+  height: 10%;
   padding: 0 25px;
   display: flex;
   flex-direction: column;
@@ -36,7 +36,7 @@ export const Body = styled.div`
 
 export const EraItemContainer = styled.div`
   min-width: 30%;
-  height: 240px;
+  height: 20vh;
   flex: 1 1 auto;
   display: flex;
   align-items: center;
@@ -44,9 +44,9 @@ export const EraItemContainer = styled.div`
   
   margin: 0 7.5px 15px;
   overflow: hidden;
-  margin-left: 300px;
-  margin-right: 300px;
-  padding:20px;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding:2.3%;
   
   &:hover {
     cursor: pointer;
