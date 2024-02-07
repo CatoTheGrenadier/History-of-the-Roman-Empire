@@ -14,6 +14,9 @@ const Navigation = () =>{
                     <NavLink to={'main'}>
                         <h1 className='eras-icon'>Eras</h1>
                     </NavLink>
+                    <NavLink to={'province'}>
+                        <h1 className='eras-icon'>Provinces</h1>
+                    </NavLink>
                 </NavLinks>
             </div>
             <Outlet/>
