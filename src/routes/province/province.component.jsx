@@ -17,7 +17,7 @@ const Province = () => {
     return (
         <MapContainer center={center} zoom={zoom} scrollWheelZoom={false} style={{ height: "800px", width: "90%", margin: "auto", border: "5px solid black"}}>
             <TileLayer
-                attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                attribution='Roma Invicta!'
                 url={geoUrl}
             />
             <Marker position={[41.89,12.487]} icon={rome}>
