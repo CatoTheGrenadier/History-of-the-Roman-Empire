@@ -12,12 +12,6 @@ import {
 } from 'firebase/firestore'
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDhR7RAejU32SMubNF1s4BnTeQbC3UjP7w",
-    authDomain: "rome-650a1.firebaseapp.com",
-    projectId: "rome-650a1",
-    storageBucket: "rome-650a1.appspot.com",
-    messagingSenderId: "876936503840",
-    appId: "1:876936503840:web:b4250f32e289191f98d245"
   };
   
   // Initialize Firebase
